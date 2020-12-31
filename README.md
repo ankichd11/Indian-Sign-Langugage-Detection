@@ -44,8 +44,6 @@ Step 4: The high and low thresholds are measured using the histogram of the grad
 Step 5: To get the proper edge map hysteresis thresholding is employed which will link between the weak and strong edges. The weak edges are taken into consideration if and only if it is connected to one of the strong edges or else it is eliminated from the edge map. The strong edge is the one whose pixel is greater than the high threshold and weak edge is one whose pixel value lies between high and low threshold. 
 
 ![alt text](https://github.com/ankichd11/Indian-Sign-Langugage-Detection/blob/main/image1.jpg?raw=true)                      
-	Raw Image 	  	Skin Mask(gray scale)   		Skin                     Canny Edge detection
-
 <p align="center">Fig 1:  Different stages of Image Preprocessing.</p>
 
 
