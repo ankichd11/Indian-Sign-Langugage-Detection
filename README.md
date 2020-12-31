@@ -80,13 +80,10 @@ Once feature descriptors are obtained for all images these are trained over the 
 
 We scored a 99% accuracy using the Bow, integrated with robust SURF feature descriptors. The real time recognition prediction of results can be seen by the figure below. Using a large set of data images always helps us to get a better efficiency in result as there could be slight biasing in the model prediction as the data set has much similar images without variations.
 
-![alt text](https://github.com/ankichd11/Indian-Sign-Langugage-Detection/blob/main/image2.jpg?raw=true)
-<p align="center">Fig 2:   Real time Prediction for the A,B and D alphabet is shown in the above images.</p>
-
 We also created a file to generate the confusion matrix for our model which is shown in below figure 
 
-![alt text](https://github.com/ankichd11/Indian-Sign-Langugage-Detection/blob/main/image3.jpg?raw=true)
-<p align="center">Fig 3: Confusion matrix for our model.</p>			
+![alt text](https://github.com/ankichd11/Indian-Sign-Langugage-Detection/blob/main/image2.jpg?raw=true)
+<p align="center">Fig 2: Confusion matrix for our model.</p>			
 
 We can see that almost 99 % of labels are predicted correctly. Some labels with incorrect prediction are G,T,3,4 which are wrongly predicted with S,U ,2,3respectively.
 
@@ -94,6 +91,6 @@ The 40 in the confusion matrix represents the total number of testing dataset fo
 
 Metrics showing Precision score, Recall score and F1 score for each label are attached as follows
 
-
-					Fig: 5 Accuracy metrics
+![alt text](https://github.com/ankichd11/Indian-Sign-Langugage-Detection/blob/main/image3.jpg?raw=true)
+<p align="center">Fig 3: Accuracy metrics</p>
 
