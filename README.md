@@ -79,9 +79,10 @@ Once feature descriptors are obtained for all images these are trained over the 
 We scored a 99% accuracy using the Bow, integrated with robust SURF feature descriptors. The real time recognition prediction of results can be seen by the figure below. Using a large set of data images always helps us to get a better efficiency in result as there could be slight biasing in the model prediction as the data set has much similar images without variations.
 
 We also created a file to generate the confusion matrix for our model which is shown in below figure 
-
+<p align="center">
 ![alt text](https://github.com/ankichd11/Indian-Sign-Langugage-Detection/blob/main/image2.jpg?raw=true)
-<p align="center">Fig 2: Confusion matrix for our model.</p>			
+Fig 2: Confusion matrix for our model.
+</p>			
 
 We can see that almost 99 % of labels are predicted correctly. Some labels with incorrect prediction are G,T,3,4 which are wrongly predicted with S,U ,2,3respectively.
 
